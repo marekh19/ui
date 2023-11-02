@@ -1,5 +1,5 @@
 export default {
-  '**/*.{js,ts,tsx}': [
+  '*.{js,ts,tsx}': [
     'prettier --write',
     'eslint --fix',
     'jest --bail --findRelatedTests',
