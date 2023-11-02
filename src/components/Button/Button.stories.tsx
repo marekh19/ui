@@ -1,4 +1,3 @@
-// Button.stories.ts|tsx
 import type { Meta, StoryObj } from '@storybook/react'
 
 import Button from './Button'
@@ -21,13 +20,13 @@ export const Default: Story = {
 export const Small: Story = {
   args: {
     ...Default.args,
-    size: 'small',
+    size: 'sm',
   },
 }
 
 export const Large: Story = {
   args: {
     ...Default.args,
-    size: 'large',
+    size: 'lg',
   },
 }
