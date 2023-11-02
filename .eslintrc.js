@@ -12,6 +12,7 @@ module.exports = {
     'tailwindcss/no-custom-classname': 'off',
     'tailwindcss/classnames-order': 'off', // done via prettier plugin
     'no-unused-vars': 'off',
+    'no-undef': 'off',
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {
