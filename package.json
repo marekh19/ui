@@ -1,6 +1,6 @@
 {
   "name": "@marekh19/ui",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A React component library",
   "scripts": {
     "rollup": "rollup -c",
@@ -75,7 +75,6 @@
     "vite-tsconfig-paths": "^4.2.1",
     "clsx": "^2.0.0",
     "tailwind-merge": "^2.0.0"
-
   },
   "peerDependencies": {
     "react": "^18.2.0"
