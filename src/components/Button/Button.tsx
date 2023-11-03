@@ -1,7 +1,6 @@
 import React from 'react'
 import { tv, type VariantProps } from 'tailwind-variants'
-import { cn } from '~/utils/cn'
-import '~/index.css'
+import { cn } from '../../utils/cn'
 
 interface Props
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
